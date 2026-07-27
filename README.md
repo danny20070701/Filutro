@@ -2,6 +2,35 @@
 
 [繁體中文](#繁體中文) | [English](#english)
 
+## Screenshots / 介面展示
+
+<p align="center">
+  <img src="./assets/filutro_launcher_ai.png" alt="Filutro application icon" width="160" />
+</p>
+
+Filutro 的圖標、AI 圖標設計稿與實機介面展示：主拍攝、可選快門聲、多重曝光、即時 LUT／`.cube` 匯入、畫幅及格線。
+
+<p align="center">
+  <img src="./assets/download.png" alt="Filutro AI icon and control design" width="520" />
+</p>
+
+<p align="center">
+  <img src="./assets/Screenshot_2026-07-27-16-18-45-844_com.filutro.jpg" alt="Filutro camera interface" width="210" />
+  <img src="./assets/Screenshot_2026-07-27-16-19-53-786_com.filutro.jpg" alt="Selectable shutter sounds" width="210" />
+  <img src="./assets/Screenshot_2026-07-27-16-20-06-667_com.filutro.jpg" alt="Multiple exposure selection" width="210" />
+</p>
+
+<p align="center">
+  <img src="./assets/Screenshot_2026-07-27-16-21-38-104_com.filutro-edit.jpg" alt="Filutro launch screen" width="210" />
+  <img src="./assets/Screenshot_2026-07-27-16-23-23-269_com.filutro.jpg" alt="Real-time LUT and cube import" width="210" />
+  <img src="./assets/Screenshot_2026-07-27-16-23-45-119_com.filutro.jpg" alt="Aspect ratio selection" width="210" />
+</p>
+
+<p align="center">
+  <img src="./assets/Screenshot_2026-07-27-16-24-05-863_com.filutro.jpg" alt="Grid selection" width="210" />
+</p>
+
+
 ## 繁體中文
 
 Filutro 是一款基於 [Open Camera](https://opencamera.org.uk/) 深度改造的純拍照 Android 相機應用。它以 Panasonic LUMIX S9 的即時 LUT 拍攝概念為參考，精簡非必要功能，將體驗收斂至攝影本身，並直接輸出已套用色彩風格的 JPEG 相片。
