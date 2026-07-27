@@ -2,34 +2,6 @@
 
 [繁體中文](#繁體中文) | [English](#english)
 
-## Screenshots / 介面展示
-
-<p align="center">
-  <img src="./assets/filutro_launcher_ai.png" alt="Filutro application icon" width="160" />
-</p>
-
-Filutro 的圖標、AI 圖標設計稿與實機介面展示：主拍攝、可選快門聲、多重曝光、即時 LUT／`.cube` 匯入、畫幅及格線。
-
-<p align="center">
-  <img src="./assets/download.png" alt="Filutro AI icon and control design" width="520" />
-</p>
-
-<p align="center">
-  <img src="./assets/Screenshot_2026-07-27-16-18-45-844_com.filutro.jpg" alt="Filutro camera interface" width="210" />
-  <img src="./assets/Screenshot_2026-07-27-16-19-53-786_com.filutro.jpg" alt="Selectable shutter sounds" width="210" />
-  <img src="./assets/Screenshot_2026-07-27-16-20-06-667_com.filutro.jpg" alt="Multiple exposure selection" width="210" />
-</p>
-
-<p align="center">
-  <img src="./assets/Screenshot_2026-07-27-16-21-38-104_com.filutro-edit.jpg" alt="Filutro launch screen" width="210" />
-  <img src="./assets/Screenshot_2026-07-27-16-23-23-269_com.filutro.jpg" alt="Real-time LUT and cube import" width="210" />
-  <img src="./assets/Screenshot_2026-07-27-16-23-45-119_com.filutro.jpg" alt="Aspect ratio selection" width="210" />
-</p>
-
-<p align="center">
-  <img src="./assets/Screenshot_2026-07-27-16-43-38-427_com.filutro.jpg" alt="Grid selection" width="210" />
-</p>
-
 
 ## 繁體中文
 
@@ -174,3 +146,31 @@ Report issues through [Issues](../../issues). Include the device model, Android 
 Filutro is derived from the open-source code of [Open Camera](https://opencamera.org.uk/) and is released under the **GNU General Public License v3.0 or later**. The complete license and source attribution are included in the source archive.
 
 Built by @PCIE/班禪
+
+## Screenshots / 介面展示
+
+<p align="center">
+  <img src="./assets/filutro_launcher_ai.png" alt="Filutro application icon" width="160" />
+</p>
+
+Filutro 的圖標、AI 圖標設計稿與實機介面展示：主拍攝、可選快門聲、多重曝光、即時 LUT／`.cube` 匯入、畫幅及格線。
+
+<p align="center">
+  <img src="./assets/download.png" alt="Filutro AI icon and control design" width="520" />
+</p>
+
+<p align="center">
+  <img src="./assets/Screenshot_2026-07-27-16-18-45-844_com.filutro.jpg" alt="Filutro camera interface" width="210" />
+  <img src="./assets/Screenshot_2026-07-27-16-19-53-786_com.filutro.jpg" alt="Selectable shutter sounds" width="210" />
+  <img src="./assets/Screenshot_2026-07-27-16-20-06-667_com.filutro.jpg" alt="Multiple exposure selection" width="210" />
+</p>
+
+<p align="center">
+  <img src="./assets/Screenshot_2026-07-27-16-21-38-104_com.filutro-edit.jpg" alt="Filutro launch screen" width="210" />
+  <img src="./assets/Screenshot_2026-07-27-16-23-23-269_com.filutro.jpg" alt="Real-time LUT and cube import" width="210" />
+  <img src="./assets/Screenshot_2026-07-27-16-23-45-119_com.filutro.jpg" alt="Aspect ratio selection" width="210" />
+</p>
+
+<p align="center">
+  <img src="./assets/Screenshot_2026-07-27-16-43-38-427_com.filutro.jpg" alt="Grid selection" width="210" />
+</p>
