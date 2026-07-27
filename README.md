@@ -34,6 +34,8 @@ Filutro 專注於靜態相片。拍攝時可預覽 LUT、格線與畫幅，輸�
 - **定位**：僅在使用者授權後寫入相片 EXIF 的地理位置資料。
 - **相片儲存**：相片儲存在裝置的媒體資料庫中。
 
+目前的 Android Manifest 仍保留部分從 Open Camera 繼承的藍牙與錄音權限宣告。它們正在逐項檢視與收斂；在沒有對應的選用功能需求時，不應授予這些權限。
+
 ### 從原始碼建置
 
 1. 下載並解壓縮根目錄的原始碼 ZIP。
@@ -103,6 +105,8 @@ Download the latest APK from [Releases](../../releases), transfer it to an Andro
 - **Camera**: required for the live preview and photo capture.
 - **Location**: written to photo EXIF geotags only after the user grants permission.
 - **Photo storage**: photos are saved to the device media library.
+
+The current Android Manifest still contains Bluetooth and microphone permission declarations inherited from Open Camera. They are being reviewed and reduced one by one; do not grant them unless an optional feature specifically requires them.
 
 ### Building from Source
 
