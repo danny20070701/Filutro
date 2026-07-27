@@ -174,3 +174,42 @@ Filutro 的圖標、AI 圖標設計稿與實機介面展示：主拍攝、可選
 <p align="center">
   <img src="./assets/Screenshot_2026-07-27-16-43-38-427_com.filutro.jpg" alt="Grid selection" width="210" />
 </p>
+
+
+## LUT Samples / LUT 樣片
+
+以下雲層對照以 Xiaomi 17 Pro 拍攝。前七張使用 Filutro 內建、由 AI 製作的原創 LUT 檔案；這些 LUT 不使用真實品牌或既有濾鏡名稱，以避免將可能受版權保護的品牌濾鏡直接內建。第八張為未套用 LUT 的原圖。Filutro 亦支援匯入使用者自己製作，或已取得適當授權的 `.cube` LUT 檔案。
+
+For the cloud comparison, the first seven images use Filutro built-in, AI-created original LUT files. They are not real branded or existing filters, avoiding the inclusion of potentially copyrighted branded looks. The eighth image is the original without a LUT. Users can also import their own properly licensed `.cube` LUT files.
+
+**即時 LUT 預覽與畫幅切換示範 / Real-time LUT preview and aspect-ratio switching demo**
+
+[觀看示範影片 / Watch the demo](./assets/samples/realtime-lut-aspect-demo.mp4)
+
+<p align="center">
+  <img src="./assets/samples/cloud-lut-01.jpg" alt="Cloud LUT sample 1" width="300" />
+  <img src="./assets/samples/cloud-lut-02.jpg" alt="Cloud LUT sample 2" width="300" />
+  <img src="./assets/samples/cloud-lut-03.jpg" alt="Cloud LUT sample 3" width="300" />
+</p>
+
+<p align="center">
+  <img src="./assets/samples/cloud-lut-04.jpg" alt="Cloud LUT sample 4" width="300" />
+  <img src="./assets/samples/cloud-lut-05.jpg" alt="Cloud LUT sample 5" width="300" />
+  <img src="./assets/samples/cloud-lut-06.jpg" alt="Cloud LUT sample 6" width="300" />
+</p>
+
+<p align="center">
+  <img src="./assets/samples/cloud-lut-07.jpg" alt="Cloud LUT sample 7" width="300" />
+</p>
+
+**Original without LUT / 未套用 LUT 的原圖**
+
+<p align="center">
+  <img src="./assets/samples/cloud-original.jpg" alt="Cloud original without LUT" width="600" />
+</p>
+
+### Architecture sample / 建築樣片
+
+<p align="center">
+  <img src="./assets/samples/architecture-sample.jpg" alt="Architecture sample" width="720" />
+</p>
