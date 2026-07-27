@@ -6,6 +6,10 @@
 
 Filutro 是一款基於 [Open Camera](https://opencamera.org.uk/) 深度改造的純拍照 Android 相機應用。它精簡非必要功能，將體驗收斂至攝影本身，並提供拍攝時即時 LUT 預覽，直接輸出已套用色彩風格的 JPEG 相片。
 
+### 基礎與定位
+
+Filutro 並不是從零開始重寫相機核心，而是基於 [Open Camera](https://opencamera.org.uk/) 深度修改而成的衍生作品。Open Camera 提供相機控制、自動對焦、拍攝、影像儲存與跨裝置相容性的成熟基礎；Filutro 則在此之上精簡非必要功能，將介面與工作流程收斂至靜態攝影創作。
+
 ### 功能
 
 - 即時 LUT 預覽與直接套用至相片
@@ -16,9 +20,25 @@ Filutro 是一款基於 [Open Camera](https://opencamera.org.uk/) 深度改造�
 - 格線、變焦、曝光調整和曝光鎖定
 - Android 原生相機控制基礎，優先保留裝置相容性
 
+### 拍攝範圍
+
+Filutro 專注於靜態相片。拍攝時可預覽 LUT、格線與畫幅，輸出的 JPEG 已直接套用所選色彩風格。錄影與 RAW 工作流程不屬於本專案範圍，讓介面與效能資源集中於拍照體驗。
+
 ### 安裝
 
 從 [Releases](../../releases) 下載最新的 APK，傳送至 Android 手機後安裝。
+
+### 權限與相片資料
+
+- **相機**：用於即時預覽與拍照。
+- **定位**：僅在使用者授權後寫入相片 EXIF 的地理位置資料。
+- **相片儲存**：相片儲存在裝置的媒體資料庫中。
+
+### 從原始碼建置
+
+1. 下載並解壓縮根目錄的原始碼 ZIP。
+2. 使用 Android Studio 開啟專案。
+3. 使用 JDK 17 與 Android SDK API 36 建置；專案最低支援 Android 6.0（API 23）。
 
 ### 已測試裝置
 
@@ -46,11 +66,19 @@ Filutro 建構於 [Open Camera](https://opencamera.org.uk/) 的開源程式碼�
 
 建構：@PCIE/班禪
 
+### 回報問題
+
+請在 [Issues](../../issues) 回報問題，並附上裝置型號、Android 版本、使用的鏡頭、LUT、HDR／多重曝光狀態、重現步驟與示例相片（移除私人資料後）。不同 Android 裝置的相機行為差異很大，這些資訊對修正相容性問題很重要。
+
 ---
 
 ## English
 
 Filutro is a photo-only Android camera app deeply modified from [Open Camera](https://opencamera.org.uk/). It removes non-essential features, keeps the experience focused on photography, and provides a real-time LUT preview. Captured JPEG photos are saved with the selected color look already applied.
+
+### Foundation and Direction
+
+Filutro is not a camera core rewritten from scratch. It is a modified derivative of [Open Camera](https://opencamera.org.uk/). Open Camera provides the mature foundations for camera control, autofocus, capture, image saving, and cross-device compatibility; Filutro streamlines non-essential features and focuses the interface and workflow on still photography.
 
 ### Features
 
@@ -62,9 +90,25 @@ Filutro is a photo-only Android camera app deeply modified from [Open Camera](ht
 - Grids, zoom, exposure adjustment, and exposure lock
 - Native Android camera controls with a focus on device compatibility
 
+### Photo-Only Scope
+
+Filutro focuses on still photos. LUTs, grids, and aspect ratios can be previewed during capture, and the selected color look is applied directly to the exported JPEG. Video and RAW workflows are intentionally outside this project's scope so the interface and performance budget stay focused on photography.
+
 ### Installation
 
 Download the latest APK from [Releases](../../releases), transfer it to an Android device, and install it.
+
+### Permissions and Photo Metadata
+
+- **Camera**: required for the live preview and photo capture.
+- **Location**: written to photo EXIF geotags only after the user grants permission.
+- **Photo storage**: photos are saved to the device media library.
+
+### Building from Source
+
+1. Download and extract the source ZIP in the repository root.
+2. Open the project with Android Studio.
+3. Build with JDK 17 and Android SDK API 36. The project supports Android 6.0 (API 23) and newer.
 
 ### Tested Devices
 
@@ -85,6 +129,10 @@ The following environments have completed installation and basic photo-capture w
 ### Source Code
 
 The complete Android source tree is available as [Filutro-source-gpl-3.0.zip](./Filutro-source-gpl-3.0.zip) in the repository root. Extract it and open the project with Android Studio to build it.
+
+### Reporting Issues
+
+Report issues through [Issues](../../issues). Include the device model, Android version, active camera lens, LUT, HDR or multiple-exposure state, reproduction steps, and sample photos with private information removed. Camera behavior varies substantially across Android devices, so this information is essential for compatibility fixes.
 
 ### License and Credits
 
