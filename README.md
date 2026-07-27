@@ -4,7 +4,7 @@
 
 ## 繁體中文
 
-Filutro 是一款只用於拍照的 Android 相機應用，提供拍攝時即時 LUT 預覽，並直接輸出已套用色彩風格的 JPEG 相片。
+Filutro 是一款基於 [Open Camera](https://opencamera.org.uk/) 深度改造的純拍照 Android 相機應用。它精簡非必要功能，將體驗收斂至攝影本身，並提供拍攝時即時 LUT 預覽，直接輸出已套用色彩風格的 JPEG 相片。
 
 ### 功能
 
@@ -20,6 +20,18 @@ Filutro 是一款只用於拍照的 Android 相機應用，提供拍攝時即時
 
 從 [Releases](../../releases) 下載最新的 APK，傳送至 Android 手機後安裝。
 
+### 已測試裝置
+
+以下裝置已完成安裝與基本拍攝流程測試：
+
+- Android 模擬器（型號未記錄）
+- Xiaomi 17 Pro、Xiaomi 17 Max、Xiaomi 17 Ultra
+- Xiaomi Pad 7S Pro
+- Samsung Galaxy S22
+- Redmi K40、Redmi K30
+- Black Shark 4S
+- Sony Xperia XZ2 Compact
+
 ### 原始碼
 
 完整 Android 原始碼位於根目錄的 [Filutro-source-gpl-3.0.zip](./Filutro-source-gpl-3.0.zip)。下載解壓後可用 Android Studio 開啟並建置。
@@ -34,7 +46,7 @@ Filutro 建構於 [Open Camera](https://opencamera.org.uk/) 的開源程式碼�
 
 ## English
 
-Filutro is a photo-only Android camera app with a real-time LUT preview. Captured JPEG photos are saved with the selected color look already applied.
+Filutro is a photo-only Android camera app deeply modified from [Open Camera](https://opencamera.org.uk/). It removes non-essential features, keeps the experience focused on photography, and provides a real-time LUT preview. Captured JPEG photos are saved with the selected color look already applied.
 
 ### Features
 
@@ -49,6 +61,18 @@ Filutro is a photo-only Android camera app with a real-time LUT preview. Capture
 ### Installation
 
 Download the latest APK from [Releases](../../releases), transfer it to an Android device, and install it.
+
+### Tested Devices
+
+The following environments have completed installation and basic photo-capture workflow testing:
+
+- Android Emulator (model not recorded)
+- Xiaomi 17 Pro, Xiaomi 17 Max, Xiaomi 17 Ultra
+- Xiaomi Pad 7S Pro
+- Samsung Galaxy S22
+- Redmi K40, Redmi K30
+- Black Shark 4S
+- Sony Xperia XZ2 Compact
 
 ### Source Code
 
