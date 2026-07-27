@@ -156,7 +156,7 @@ Built by @PCIE/班禪
 Filutro 的圖標、AI 圖標設計稿與實機介面展示：主拍攝、可選快門聲、多重曝光、即時 LUT／`.cube` 匯入、畫幅及格線。
 
 <p align="center">
-  <img src="./assets/download.png" alt="Filutro AI icon and control design" width="420" />
+  <img src="./assets/download.png" alt="Filutro AI icon and control design" width="360" />
 </p>
 
 <p align="center">
