@@ -32,6 +32,10 @@ Filutro 是一款基於 [Open Camera](https://opencamera.org.uk/) 深度改造�
 - Black Shark 4S
 - Sony Xperia XZ2 Compact
 
+### 已知限制
+
+- **Sony Xperia XZ2 Compact**：啟用 Open Camera 內建運算演算法時，曾觀察到嚴重發熱。這可能與裝置的運算負載及散熱餘裕有關，尚未完成根因分析；長時間拍攝時建議停用該模式並留意機身溫度。
+
 ### 原始碼
 
 完整 Android 原始碼位於根目錄的 [Filutro-source-gpl-3.0.zip](./Filutro-source-gpl-3.0.zip)。下載解壓後可用 Android Studio 開啟並建置。
@@ -73,6 +77,10 @@ The following environments have completed installation and basic photo-capture w
 - Redmi K40, Redmi K30
 - Black Shark 4S
 - Sony Xperia XZ2 Compact
+
+### Known Limitation
+
+- **Sony Xperia XZ2 Compact**: severe heating has been observed when Open Camera's built-in computational algorithms are enabled. The cause has not been confirmed; it may be related to device compute load and thermal headroom. Disable this mode for extended shooting and monitor device temperature.
 
 ### Source Code
 
