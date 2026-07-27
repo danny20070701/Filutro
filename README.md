@@ -213,3 +213,13 @@ For the cloud comparison, the first seven images use Filutro built-in, AI-create
 <p align="center">
   <img src="./assets/samples/architecture-sample.jpg" alt="Architecture sample" width="720" />
 </p>
+
+
+### Multiple Exposure Sample / 多重曝光樣片
+
+兩張連續拍攝的畫面合成，展示 Filutro 的雙張多重曝光效果。
+Two consecutive captures composited with Filutro, showing its two-shot multiple-exposure effect.
+
+<p align="center">
+  <img src="./assets/samples/IMG_20260727_180124_MX.jpg" alt="Two-shot multiple exposure sample" width="720" />
+</p>
