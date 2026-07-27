@@ -4,7 +4,7 @@
 
 ## 繁體中文
 
-Filutro 是一款基於 [Open Camera](https://opencamera.org.uk/) 深度改造的純拍照 Android 相機應用。它精簡非必要功能，將體驗收斂至攝影本身，並提供拍攝時即時 LUT 預覽，直接輸出已套用色彩風格的 JPEG 相片。
+Filutro 是一款基於 [Open Camera](https://opencamera.org.uk/) 深度改造的純拍照 Android 相機應用。它以 Panasonic LUMIX S9 的即時 LUT 拍攝概念為參考，精簡非必要功能，將體驗收斂至攝影本身，並直接輸出已套用色彩風格的 JPEG 相片。
 
 ### 基礎與定位
 
@@ -12,10 +12,11 @@ Filutro 並不是從零開始重寫相機核心，而是基於 [Open Camera](htt
 
 ### 功能
 
-- 即時 LUT 預覽與直接套用至相片
-- 40 款內建色彩風格，支援匯入 LUT
-- 自動 HDR、拍攝回饋與可選快門聲
+- Panasonic LUMIX S9 式即時 LUT 預覽與已套用 LUT 的 JPEG 直出
+- 40 款內建色彩風格，支援匯入 `.cube` LUT
+- 可選與可自訂的快門聲，以及拍攝震動與畫面閃動回饋
 - 最多 4 張多重曝光及殘影引導預覽
+- 為攝影工作流程重新設計的圖標與拍攝控制 UI
 - 畫幅：1:1、4:3、3:2、16:9、1.85:1、2.39:1
 - 格線、變焦、曝光調整和曝光鎖定
 - Android 原生相機控制基礎，優先保留裝置相容性
@@ -76,7 +77,7 @@ Filutro 建構於 [Open Camera](https://opencamera.org.uk/) 的開源程式碼�
 
 ## English
 
-Filutro is a photo-only Android camera app deeply modified from [Open Camera](https://opencamera.org.uk/). It removes non-essential features, keeps the experience focused on photography, and provides a real-time LUT preview. Captured JPEG photos are saved with the selected color look already applied.
+Filutro is a photo-only Android camera app deeply modified from [Open Camera](https://opencamera.org.uk/). Inspired by Panasonic LUMIX S9's real-time LUT shooting concept, it removes non-essential features, keeps the experience focused on photography, and saves JPEG photos with the selected color look already applied.
 
 ### Foundation and Direction
 
@@ -84,10 +85,11 @@ Filutro is not a camera core rewritten from scratch. It is a modified derivative
 
 ### Features
 
-- Real-time LUT preview with baked-in photo output
-- 40 built-in color looks and LUT import support
-- Automatic HDR, capture feedback, and selectable shutter sounds
+- Panasonic LUMIX S9-style real-time LUT preview with baked-in JPEG output
+- 40 built-in color looks and `.cube` LUT import support
+- Selectable, customizable shutter sounds with vibration and screen-flash capture feedback
 - Up to four-frame multiple exposure with a ghost-image guide
+- Rebuilt icons and shooting controls designed around a photography-focused workflow
 - Aspect ratios: 1:1, 4:3, 3:2, 16:9, 1.85:1, and 2.39:1
 - Grids, zoom, exposure adjustment, and exposure lock
 - Native Android camera controls with a focus on device compatibility
