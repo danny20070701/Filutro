@@ -27,7 +27,7 @@ Filutro 的圖標、AI 圖標設計稿與實機介面展示：主拍攝、可選
 </p>
 
 <p align="center">
-  <img src="./assets/Screenshot_2026-07-27-16-24-05-863_com.filutro.jpg" alt="Grid selection" width="210" />
+  <img src="./assets/Screenshot_2026-07-27-16-43-38-427_com.filutro.jpg" alt="Grid selection" width="210" />
 </p>
 
 
